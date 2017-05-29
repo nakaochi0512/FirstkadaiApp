@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "70C21A1B1ED288EA0081F82D"
-               BuildableName = "&#x521d;&#x3081;&#x3066;&#x306e;&#x30a2;&#x30d5;&#x309a;&#x30ea;.app"
-               BlueprintName = "&#x521d;&#x3081;&#x3066;&#x306e;&#x30a2;&#x30d5;&#x309a;&#x30ea;"
-               ReferencedContainer = "container:&#x521d;&#x3081;&#x3066;&#x306e;&#x30a2;&#x30d5;&#x309a;&#x30ea;.xcodeproj">
+               BuildableName = "FirstKadaiApp.app"
+               BlueprintName = "FirstKadaiApp"
+               ReferencedContainer = "container:FirstKadaiApp.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "70C21A2F1ED288EB0081F82D"
-               BuildableName = "&#x521d;&#x3081;&#x3066;&#x306e;&#x30a2;&#x30d5;&#x309a;&#x30ea;Tests.xctest"
-               BlueprintName = "&#x521d;&#x3081;&#x3066;&#x306e;&#x30a2;&#x30d5;&#x309a;&#x30ea;Tests"
-               ReferencedContainer = "container:&#x521d;&#x3081;&#x3066;&#x306e;&#x30a2;&#x30d5;&#x309a;&#x30ea;.xcodeproj">
+               BuildableName = "FirstKadaiAppTests.xctest"
+               BlueprintName = "FirstKadaiAppTests"
+               ReferencedContainer = "container:FirstKadaiApp.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -43,9 +43,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "70C21A3A1ED288EC0081F82D"
-               BuildableName = "&#x521d;&#x3081;&#x3066;&#x306e;&#x30a2;&#x30d5;&#x309a;&#x30ea;UITests.xctest"
-               BlueprintName = "&#x521d;&#x3081;&#x3066;&#x306e;&#x30a2;&#x30d5;&#x309a;&#x30ea;UITests"
-               ReferencedContainer = "container:&#x521d;&#x3081;&#x3066;&#x306e;&#x30a2;&#x30d5;&#x309a;&#x30ea;.xcodeproj">
+               BuildableName = "FirstKadaiAppUITests.xctest"
+               BlueprintName = "FirstKadaiAppUITests"
+               ReferencedContainer = "container:FirstKadaiApp.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -53,9 +53,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "70C21A1B1ED288EA0081F82D"
-            BuildableName = "&#x521d;&#x3081;&#x3066;&#x306e;&#x30a2;&#x30d5;&#x309a;&#x30ea;.app"
-            BlueprintName = "&#x521d;&#x3081;&#x3066;&#x306e;&#x30a2;&#x30d5;&#x309a;&#x30ea;"
-            ReferencedContainer = "container:&#x521d;&#x3081;&#x3066;&#x306e;&#x30a2;&#x30d5;&#x309a;&#x30ea;.xcodeproj">
+            BuildableName = "FirstKadaiApp.app"
+            BlueprintName = "FirstKadaiApp"
+            ReferencedContainer = "container:FirstKadaiApp.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -76,9 +76,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "70C21A1B1ED288EA0081F82D"
-            BuildableName = "&#x521d;&#x3081;&#x3066;&#x306e;&#x30a2;&#x30d5;&#x309a;&#x30ea;.app"
-            BlueprintName = "&#x521d;&#x3081;&#x3066;&#x306e;&#x30a2;&#x30d5;&#x309a;&#x30ea;"
-            ReferencedContainer = "container:&#x521d;&#x3081;&#x3066;&#x306e;&#x30a2;&#x30d5;&#x309a;&#x30ea;.xcodeproj">
+            BuildableName = "FirstKadaiApp.app"
+            BlueprintName = "FirstKadaiApp"
+            ReferencedContainer = "container:FirstKadaiApp.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -95,9 +95,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "70C21A1B1ED288EA0081F82D"
-            BuildableName = "&#x521d;&#x3081;&#x3066;&#x306e;&#x30a2;&#x30d5;&#x309a;&#x30ea;.app"
-            BlueprintName = "&#x521d;&#x3081;&#x3066;&#x306e;&#x30a2;&#x30d5;&#x309a;&#x30ea;"
-            ReferencedContainer = "container:&#x521d;&#x3081;&#x3066;&#x306e;&#x30a2;&#x30d5;&#x309a;&#x30ea;.xcodeproj">
+            BuildableName = "FirstKadaiApp.app"
+            BlueprintName = "FirstKadaiApp"
+            ReferencedContainer = "container:FirstKadaiApp.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

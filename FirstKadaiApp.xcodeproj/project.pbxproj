@@ -14,6 +14,7 @@
 		70C21A2A1ED288EB0081F82D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70C21A281ED288EB0081F82D /* LaunchScreen.storyboard */; };
 		70C21A351ED288EC0081F82D /* ________Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70C21A341ED288EC0081F82D /* ________Tests.swift */; };
 		70C21A401ED288EC0081F82D /* ________UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70C21A3F1ED288EC0081F82D /* ________UITests.swift */; };
+		70C21A4E1ED2CA740081F82D /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70C21A4D1ED2CA740081F82D /* ResultViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,19 +35,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		70C21A1C1ED288EB0081F82D /* 初めてのアプリ.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "初めてのアプリ.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		70C21A1C1ED288EB0081F82D /* FirstKadaiApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirstKadaiApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		70C21A1F1ED288EB0081F82D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		70C21A211ED288EB0081F82D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		70C21A241ED288EB0081F82D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		70C21A261ED288EB0081F82D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		70C21A291ED288EB0081F82D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		70C21A2B1ED288EB0081F82D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		70C21A301ED288EB0081F82D /* 初めてのアプリTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "初めてのアプリTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		70C21A301ED288EB0081F82D /* FirstKadaiAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FirstKadaiAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		70C21A341ED288EC0081F82D /* ________Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "________Tests.swift"; sourceTree = "<group>"; };
 		70C21A361ED288EC0081F82D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		70C21A3B1ED288EC0081F82D /* 初めてのアプリUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "初めてのアプリUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		70C21A3B1ED288EC0081F82D /* FirstKadaiAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FirstKadaiAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		70C21A3F1ED288EC0081F82D /* ________UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "________UITests.swift"; sourceTree = "<group>"; };
 		70C21A411ED288EC0081F82D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		70C21A4D1ED2CA740081F82D /* ResultViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 		70C21A131ED288EA0081F82D = {
 			isa = PBXGroup;
 			children = (
+				70C21A4D1ED2CA740081F82D /* ResultViewController.swift */,
 				70C21A1E1ED288EB0081F82D /* 初めてのアプリ */,
 				70C21A331ED288EB0081F82D /* 初めてのアプリTests */,
 				70C21A3E1ED288EC0081F82D /* 初めてのアプリUITests */,
@@ -87,9 +90,9 @@
 		70C21A1D1ED288EB0081F82D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				70C21A1C1ED288EB0081F82D /* 初めてのアプリ.app */,
-				70C21A301ED288EB0081F82D /* 初めてのアプリTests.xctest */,
-				70C21A3B1ED288EC0081F82D /* 初めてのアプリUITests.xctest */,
+				70C21A1C1ED288EB0081F82D /* FirstKadaiApp.app */,
+				70C21A301ED288EB0081F82D /* FirstKadaiAppTests.xctest */,
+				70C21A3B1ED288EC0081F82D /* FirstKadaiAppUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -128,9 +131,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		70C21A1B1ED288EA0081F82D /* 初めてのアプリ */ = {
+		70C21A1B1ED288EA0081F82D /* FirstKadaiApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 70C21A441ED288EC0081F82D /* Build configuration list for PBXNativeTarget "初めてのアプリ" */;
+			buildConfigurationList = 70C21A441ED288EC0081F82D /* Build configuration list for PBXNativeTarget "FirstKadaiApp" */;
 			buildPhases = (
 				70C21A181ED288EA0081F82D /* Sources */,
 				70C21A191ED288EA0081F82D /* Frameworks */,
@@ -140,14 +143,14 @@
 			);
 			dependencies = (
 			);
-			name = "初めてのアプリ";
+			name = FirstKadaiApp;
 			productName = "初めてのアプリ";
-			productReference = 70C21A1C1ED288EB0081F82D /* 初めてのアプリ.app */;
+			productReference = 70C21A1C1ED288EB0081F82D /* FirstKadaiApp.app */;
 			productType = "com.apple.product-type.application";
 		};
-		70C21A2F1ED288EB0081F82D /* 初めてのアプリTests */ = {
+		70C21A2F1ED288EB0081F82D /* FirstKadaiAppTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 70C21A471ED288EC0081F82D /* Build configuration list for PBXNativeTarget "初めてのアプリTests" */;
+			buildConfigurationList = 70C21A471ED288EC0081F82D /* Build configuration list for PBXNativeTarget "FirstKadaiAppTests" */;
 			buildPhases = (
 				70C21A2C1ED288EB0081F82D /* Sources */,
 				70C21A2D1ED288EB0081F82D /* Frameworks */,
@@ -158,14 +161,14 @@
 			dependencies = (
 				70C21A321ED288EB0081F82D /* PBXTargetDependency */,
 			);
-			name = "初めてのアプリTests";
+			name = FirstKadaiAppTests;
 			productName = "初めてのアプリTests";
-			productReference = 70C21A301ED288EB0081F82D /* 初めてのアプリTests.xctest */;
+			productReference = 70C21A301ED288EB0081F82D /* FirstKadaiAppTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		70C21A3A1ED288EC0081F82D /* 初めてのアプリUITests */ = {
+		70C21A3A1ED288EC0081F82D /* FirstKadaiAppUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 70C21A4A1ED288EC0081F82D /* Build configuration list for PBXNativeTarget "初めてのアプリUITests" */;
+			buildConfigurationList = 70C21A4A1ED288EC0081F82D /* Build configuration list for PBXNativeTarget "FirstKadaiAppUITests" */;
 			buildPhases = (
 				70C21A371ED288EC0081F82D /* Sources */,
 				70C21A381ED288EC0081F82D /* Frameworks */,
@@ -176,9 +179,9 @@
 			dependencies = (
 				70C21A3D1ED288EC0081F82D /* PBXTargetDependency */,
 			);
-			name = "初めてのアプリUITests";
+			name = FirstKadaiAppUITests;
 			productName = "初めてのアプリUITests";
-			productReference = 70C21A3B1ED288EC0081F82D /* 初めてのアプリUITests.xctest */;
+			productReference = 70C21A3B1ED288EC0081F82D /* FirstKadaiAppUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -210,7 +213,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 70C21A171ED288EA0081F82D /* Build configuration list for PBXProject "初めてのアプリ" */;
+			buildConfigurationList = 70C21A171ED288EA0081F82D /* Build configuration list for PBXProject "FirstKadaiApp" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -223,9 +226,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				70C21A1B1ED288EA0081F82D /* 初めてのアプリ */,
-				70C21A2F1ED288EB0081F82D /* 初めてのアプリTests */,
-				70C21A3A1ED288EC0081F82D /* 初めてのアプリUITests */,
+				70C21A1B1ED288EA0081F82D /* FirstKadaiApp */,
+				70C21A2F1ED288EB0081F82D /* FirstKadaiAppTests */,
+				70C21A3A1ED288EC0081F82D /* FirstKadaiAppUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -264,6 +267,7 @@
 			files = (
 				70C21A221ED288EB0081F82D /* ViewController.swift in Sources */,
 				70C21A201ED288EB0081F82D /* AppDelegate.swift in Sources */,
+				70C21A4E1ED2CA740081F82D /* ResultViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,12 +292,12 @@
 /* Begin PBXTargetDependency section */
 		70C21A321ED288EB0081F82D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 70C21A1B1ED288EA0081F82D /* 初めてのアプリ */;
+			target = 70C21A1B1ED288EA0081F82D /* FirstKadaiApp */;
 			targetProxy = 70C21A311ED288EB0081F82D /* PBXContainerItemProxy */;
 		};
 		70C21A3D1ED288EC0081F82D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 70C21A1B1ED288EA0081F82D /* 初めてのアプリ */;
+			target = 70C21A1B1ED288EA0081F82D /* FirstKadaiApp */;
 			targetProxy = 70C21A3C1ED288EC0081F82D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -446,7 +450,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "jp.techacademy.naochika.yonezumi.--------Tests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/初めてのアプリ.app/初めてのアプリ";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FirstKadaiApp.app/FirstKadaiApp";
 			};
 			name = Debug;
 		};
@@ -461,7 +465,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "jp.techacademy.naochika.yonezumi.--------Tests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/初めてのアプリ.app/初めてのアプリ";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FirstKadaiApp.app/FirstKadaiApp";
 			};
 			name = Release;
 		};
@@ -496,7 +500,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		70C21A171ED288EA0081F82D /* Build configuration list for PBXProject "初めてのアプリ" */ = {
+		70C21A171ED288EA0081F82D /* Build configuration list for PBXProject "FirstKadaiApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				70C21A421ED288EC0081F82D /* Debug */,
@@ -505,7 +509,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		70C21A441ED288EC0081F82D /* Build configuration list for PBXNativeTarget "初めてのアプリ" */ = {
+		70C21A441ED288EC0081F82D /* Build configuration list for PBXNativeTarget "FirstKadaiApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				70C21A451ED288EC0081F82D /* Debug */,
@@ -513,7 +517,7 @@
 			);
 			defaultConfigurationIsVisible = 0;
 		};
-		70C21A471ED288EC0081F82D /* Build configuration list for PBXNativeTarget "初めてのアプリTests" */ = {
+		70C21A471ED288EC0081F82D /* Build configuration list for PBXNativeTarget "FirstKadaiAppTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				70C21A481ED288EC0081F82D /* Debug */,
@@ -521,7 +525,7 @@
 			);
 			defaultConfigurationIsVisible = 0;
 		};
-		70C21A4A1ED288EC0081F82D /* Build configuration list for PBXNativeTarget "初めてのアプリUITests" */ = {
+		70C21A4A1ED288EC0081F82D /* Build configuration list for PBXNativeTarget "FirstKadaiAppUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				70C21A4B1ED288EC0081F82D /* Debug */,
